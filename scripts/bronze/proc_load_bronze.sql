@@ -1,5 +1,5 @@
 /*
-This script load the data from csv into bronze layer.
+This script load the data from csv into bronze layer. It checks for the data if any data already exists in the table/s or not if it exists then it will truncate it and then load the new data from the csv files in the tables.
 Since I am using ubuntu system so my I have my path where the CSV files are stored in FROM clause, change the path accordling for respective OS.
 */
 
